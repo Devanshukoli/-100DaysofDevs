@@ -8,9 +8,9 @@
 
 //   document.querySelector('#placeToYell').innerText = fName + ' ' + fMidName + ' ' + ' ' + lMidName + ' ' + lName
 
-  //Add what you should be doing - conditionals go here
+//Add what you should be doing - conditionals go here
 
-  // document.querySelector('#placeToYell').innerText = `${fName} ${fMidName} ${lMidName} ${lName}`
+// document.querySelector('#placeToYell').innerText = `${fName} ${fMidName} ${lMidName} ${lName}`
 // }
 
 const synth = window.speechSynthesis;
@@ -18,11 +18,11 @@ document.querySelector('#yell').addEventListener('click', run)
 
 function run() {
   const fName = document.querySelector('#firstName').value
-  const fMidName = document.querySelector('#firstMiddle').value
-  const lMidName = document.querySelector('#lastMiddle').value
+  const fMidName = document.querySelector('#firstMiddleName').value
+  const lMidName = document.querySelector('#lastMiddleName').value
   const lName = document.querySelector('#lastName').value
 
-  const yellText =  `${fName} ${fMidName} ${lMidName} ${lName}`
+  const yellText = `${fName} ${fMidName} ${lMidName} ${lName}`
 
   document.querySelector('#placeToYell').innerText = yellText
 
