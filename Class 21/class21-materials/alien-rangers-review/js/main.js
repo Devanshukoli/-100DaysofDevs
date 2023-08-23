@@ -2,9 +2,10 @@
 
 //Create and array of tv shows. Loop through and print each show to the console
 let tvShow = ['the office', 'games of thrones', 'breaking bad', 'stragner things', 'the walking dead']
-for (let i = 0; i < tvShow.length; i++) {
-    console.log(tvShow[i])
-}
+// for (let i = 0; i < tvShow.length; i++) {
+//     console.log(tvShow[i])
+// }
+tvShow.forEach(tvShow => console.log(tvShow))
 
 //Create and array of numbers
 let num = [1, 2, 3, 4, 5]
