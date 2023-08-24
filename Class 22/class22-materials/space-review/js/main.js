@@ -2,12 +2,14 @@
 
 //Create and array of numbers. Sum all of the numbers. Alert the sum.
 let arrNum = [1, 2, 3, 4, 5]
-let sum = 0
-for (let i = 0; i < arrNum.length; i++) {
-    sum += arrNum[i];
-}
-console.log(sum);
+// let sum = 0
+// for (let i = 0; i < arrNum.length; i++) {
+//     sum += arrNum[i];
+// }
+// console.log(sum);
 // alert(sum);
+let sum = arrNum.reduce((acc, currentValue) => acc + currentValue, initialValue = 0)
+console.log(sum);
 
 
 
