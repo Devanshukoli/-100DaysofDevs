@@ -1,0 +1,28 @@
+h1 {
+  background-color: gold;
+  text-decoration: underline;
+  color: blue;
+}
+
+h2 {
+  color: purple;
+  text-decoration-style: solid;
+  text-decoration-thickness: 25px;
+  border-color: green
+}
+
+section {
+  width: 50%;
+  height: 200px;
+  background: gray;
+  border-color: black;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  border-color: #90ee90;
+  text-decoration-thickness: 20px;
+  color: white;
+  font-family: Roboto;
+}
